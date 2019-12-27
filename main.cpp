@@ -11,9 +11,9 @@
 using namespace std;
 int main ()
 {
-    float Denomenator = 2;
+    float Denomenator = 6;
     float sum = 0;
-    while(Denomenator <= 69){sum = sum +(1/Denomenator);
+    while(Denomenator <= 19){sum = sum +(1/Denomenator);
         Denomenator++;
     }
     cout << sum;
